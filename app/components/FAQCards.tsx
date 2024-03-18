@@ -2,6 +2,7 @@
 import React, {useState } from 'react'
 
 interface data{
+    key:number,
     ques:string,
     ans:string
 }
