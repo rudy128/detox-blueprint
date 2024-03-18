@@ -10,17 +10,16 @@ import Words from "./components/Words";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between space-y-12 bg-[#0a111c] text-white">
+    <main className="flex min-h-screen flex-col items-center justify-between bg-[#0a111c] text-white">
       <Navbar />
       <P1 />
+      <Signs />
+      <Benefits />
       <Words />
       <Testimonials />
-      <Signs />
-      <FAQ />
-      <Benefits />
       <FinalCall />
+      <FAQ />
       <Footer />
-      <div className="bg-teal-600">Hello World</div>
     </main>
   );
 }
