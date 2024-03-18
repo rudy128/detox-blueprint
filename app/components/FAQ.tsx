@@ -3,8 +3,8 @@ import FAQCards from './FAQCards'
 import faqdata from '../../assests/faqdata'
 
 const FAQ = () => {
-  const faqElements=faqdata.map((faq: { ques: string; ans: string }) => {
-    return <FAQCards ques={faq.ques} ans={faq.ans} />
+  const faqElements=faqdata.map((faq: {  id:number,ques: string; ans: string }) => {
+    return <FAQCards key={faq.id} ques={faq.ques} ans={faq.ans} />
   })
   return (
     <div className='bg-[#131b23] w-screen py-10 flex flex-col items-center justify-between'>
