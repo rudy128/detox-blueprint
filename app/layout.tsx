@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import BgAnimation from "./components/BgAnimation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className + "min-w-screen flex min-h-screen flex-col items-center justify-between bg-[#1953aa] text-white"}>{children}</body>
+      <body className={inter.className + "overflow-x-hidden min-w-screen overscroll-none flex min-h-screen flex-col items-center justify-between bg-[#1953aa] text-white"}>
+        {children}
+      </body>
     </html>
   );
 }

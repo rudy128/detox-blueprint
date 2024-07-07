@@ -1,8 +1,8 @@
 import React from 'react'
 const FAQ = () => {
   return (
-    <div className='w-screen flex flex-col items-center justify-center'>
-      <hr className='relative top-[16px] w-5/6 border-dotted border-t-[8px] border-white-600 '/>
+    <div className='w-screen flex flex-col items-center adam5-bg justify-center'>
+      <hr className='relative top-[16px] w-5/6 border-dotted border-t-[8px] border-white-600 ' />
       <div className='my-3 py-12 w-screen flex flex-col items-center'>
         <h1 className='text-5xl mb-12'>What's Included In The Detox Blueprint Masterclass</h1>
         <div className='flex justify-center'>

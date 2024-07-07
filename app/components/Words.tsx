@@ -2,8 +2,8 @@ import React from 'react'
 
 const Words = () => {
   return (
-    <div className='w-screen flex flex-col items-center justify-center'>
-      <hr className='relative top-[16px] w-5/6 border-dotted border-t-[8px] border-white-600 '/>
+    <div className='w-screen flex flex-col items-center adam4-bg justify-center'>
+      <hr className='relative top-[16px] w-5/6 border-dotted border-t-[8px] border-white-600 ' />
       <div className='my-3 py-12 w-screen flex flex-col items-center'>
         <h1 className='text-5xl mb-12'>The Detox Blueprint Masterclass is for you if…</h1>
         <div className='flex justify-center'>
@@ -18,7 +18,7 @@ const Words = () => {
           </div>
         </div>
       </div>
-      <div className='my-3 py-12 w-screen flex flex-col items-center'>
+      <div className='my-3 py-12 w-screen flex flex-col adam6-bg items-center'>
         <h1 className='text-5xl  mb-12'>The Detox Blueprint Masterclass is <strong>NOT</strong> for you if…</h1>
         <div className='flex justify-center'>
           <div className='flex flex-col justify between items-center p-8 space-y-8'>
